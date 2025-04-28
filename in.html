@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="app.js" defer></script>
+</head>
+<body>
+<input id="nameInput" type="text" placeholder="Ismingizni kiriting">
+<button onclick="sayHello()" class="buttona">Yuborish</button>
+<p id="greeting"></p>
+
+<hr>
+<div id="block1" class="color-block"></div>
+<div id="block2" class="color-block"></div>
+<div id="block3" class="color-block"></div>
+
+<hr>
+
+
+<input id="todoInput" type="text" placeholder="Vazifa kiriting">
+<button onclick="addTodo()"  class="buttona">Qo‘shish</button>
+<ul id="todoList"></ul>
+
+<style>
+.color-block {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 10px;
+    background-color: gray;
+}
+.buttona{
+    padding: 10 10;
+    background-color: aqua;
+    border:solid rgb(71, 66, 225);
+    border-radius: 20px;
+}
+</style>
+
+</body>
+</html>
